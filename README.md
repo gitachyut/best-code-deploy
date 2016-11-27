@@ -23,6 +23,7 @@
 
 ## Inside The project dir initialize git and add new remote to your vps <br>
 `git remote add live ssh://user@address/var/repo/repo_name.git`
+`git push live master`
 <br>
 
 But Before all of these configuration set ssh-keygen features https://github.com/gitachyut/ssh-key-setup
