@@ -16,7 +16,9 @@
 
 ## `post-receive` is bash file so  <br>
 `#!/bin/sh`    
-`git --work-tree=/var/www/html --git-dir=/var/repo/repo_name.git checkout -f`<br>
+`git --work-tree=/var/www/html --git-dir=/var/repo/repo_name.git checkout -f`<br>  
+  save file  `post-receive` and make it executable 
+`chmod +x post-receive`
 <br>
 
 ----------------- client side Work --------------------- <br>
