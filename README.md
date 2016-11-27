@@ -15,8 +15,8 @@
 <br>
 
 ## `post-receive` is bash file so  <br>
-`#!/bin/sh   
-git --work-tree=/var/www/html --git-dir=/var/repo/repo_name.git checkout -f`<br>
+`#!/bin/sh`    
+`git --work-tree=/var/www/html --git-dir=/var/repo/repo_name.git checkout -f`<br>
 <br>
 
 ----------------- client side Work --------------------- <br>
