@@ -1,4 +1,4 @@
-# Best way to code deploy any VPS <br>
+# Best way to code deploy on any VPS using Git<br>
 *  Server side Work --------------------- <br>
 
 ## Create a Repo dir on the server <br>
