@@ -32,8 +32,8 @@ But Before all of these configuration set ssh-keygen features https://github.com
 # One more way to code deploy the whole project (One Time Code Deploy)  
 This is not step by step code deploy way it's one time code deploy. 
 * using github and git 
-* using the github webhook (link your site url )
-* using the piece of code inside the server 
+* using the github webhook feature (link your bellow script location eg; http://example.com/script.php )
+* script.php
 ~~~~
 <?php
 	$Local_Root = "/home/site/web/xyz.com/public_html";
