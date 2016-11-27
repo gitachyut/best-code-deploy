@@ -26,4 +26,29 @@
 `git push live master`
 <br>
 
-But Before all of these configuration set ssh-keygen features https://github.com/gitachyut/ssh-key-setup
+But Before all of these configuration set ssh-keygen features https://github.com/gitachyut/ssh-key-setup  
+
+
+# One more way to code deploy the whole project (One Time Code Deploy)  
+This is not step by step code deploy way it's one time code deploy. 
+
+`
+<?php  
+	$Local_Root = "/home/site/web/findguwahati.com/public_html";  
+	$App_name = "app";  
+	$Local_repo = "{$Local_Root}/{$App_name}";  
+
+	$Git_repo = "https://github.com/gitachyut/digital-git-deploy.git";  
+	$Git_repo_name = "digital-git-deploy";  
+	if(file_exists($Local_repo)){  
+
+		shell_exec("rm -rf {$Local_repo} ");   
+	}  
+
+	echo shell_exec(" cd {$Local_Root} && git clone {$Git_repo} && mv {$Git_repo_name} {$App_name}  && git checkout master ");  
+
+	die("dome");  
+?>  
+`
+
+
