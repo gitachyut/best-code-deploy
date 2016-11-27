@@ -25,4 +25,4 @@ git --work-tree=/var/www/html --git-dir=/var/repo/repo_name.git checkout -f`<br>
 `git remote add live ssh://user@address/var/repo/repo_name.git`
 <br>
 
-- But Before all of these configuration set ssh-keygen features
+But Before all of these configuration set ssh-keygen features https://github.com/gitachyut/ssh-key-setup
