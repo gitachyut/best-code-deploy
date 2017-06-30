@@ -50,5 +50,17 @@ This is not step by step code deploy way it's one time code deploy.
 	die("done");
 ?>
 ~~~~
+  
+# ssh private key set up for git push 
+
+create  a `config` file in ~/.ssh dir
+~~~~
+host host_url/ip  
+ HostName host_url/ip  
+ IdentityFile ~/.ssh/your_private_key  
+ User user_name  
+~~~~
+  
+`git remote add live ssh://user_name@host_url_ip/directory/full/path/repo.git`
 
 
